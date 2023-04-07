@@ -120,6 +120,7 @@
 
 @media(max-width:768px) {
   .MainContainer {
+    width: 100%;
     height: auto;
     padding: 10px;
     overflow: auto;
@@ -163,6 +164,15 @@ nav {
   width: 20%;
   /* border: 1px solid black; */
   position: relative;
+}
+
+@media(max-width:768px) {
+  .logodiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 nav h2 {
